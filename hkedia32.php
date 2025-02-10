@@ -6,7 +6,7 @@ if(isset($_POST['regsubmit'])){
 		$target_file = $target_dir . "a123".".doc";//new name of the file
 		$uploadOk = 1;
 		$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-// Check if image file is a actual image or fake image
+// Check if image f ile is a actual image or fake image
 		
 // Check file size
 		if ($_FILES["fileToUpload"]["size"] > 500000) {
